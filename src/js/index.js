@@ -8,14 +8,21 @@ console.dir(titleElement);
 console.dir(titleElement.parentElement);
 console.dir(titleElement.nextElementSibling);*/
 
-const startPointElement = document.getElementById('start-point');
+//const startPointElement = document.getElementById('start-point');
 
-console.dir(startPointElement);
+//console.dir(startPointElement);
 
-console.log(`Soy un ${startPointElement.tagName} con el id start-point`);
+//console.log(`Soy un ${startPointElement.tagName} con el id start-point`);
 
-const firstListElement = document.getElementById('first-list');
+/*const firstListElement = document.getElementById('first-list');
 const secondListElement = document.getElementById('second-list');
 
-console.dir(firstListElement.textContent);
-console.dir(secondListElement.textContent);
+const firstContent = firstListElement.textContent;
+const secondContent = secondListElement.textContent;
+
+firstListElement.textContent = secondContent;
+secondListElement.textContent = firstContent;*/
+
+const headerElements = document.querySelectorAll('header').length;
+
+console.log(headerElements);
